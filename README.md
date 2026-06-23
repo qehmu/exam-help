@@ -1,4 +1,6 @@
 Not a discription.
+
+VIEW AS CODE IS NECESSARY!!!
     passwd snow – поменять пароль
    **iptables settings**
    iptables -t nat -A POSTROUTING -o ens160 -j MASQUERADE / ACCEPT
