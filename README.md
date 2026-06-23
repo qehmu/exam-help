@@ -27,12 +27,14 @@ apt-get update -y && apt-get upgrade
 apt-get install frr frr-pythontools
 
 **frr ISP:**
+
 9. vtysh
 10.	router ospf 
 11.	router-id 2.2.2.2
 12.	network 10.0.12.0/30 area 0
 13.	network 192.168.1.0/24 area 0
 **frr Zeus:**
+
 14. vtysh
 15.	router ospf 
 16.	router-id 1.1.1.1
@@ -41,6 +43,7 @@ apt-get install frr frr-pythontools
 
 
 **DNS:**
+
 **apt-get install bind**
 
 vim /etc/bind/options.conf
