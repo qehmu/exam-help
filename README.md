@@ -33,13 +33,14 @@ apt-get install frr frr-pythontools
 11.	router-id 2.2.2.2
 12.	network 10.0.12.0/30 area 0
 13.	network 192.168.1.0/24 area 0
+    
 **frr Zeus:**
 
-14. vtysh
-15.	router ospf 
-16.	router-id 1.1.1.1
-17.	network 10.0.12.0/30 area 0
-18.	network 192.168.1.0/24 area 0
+15. vtysh
+16.	router ospf 
+17.	router-id 1.1.1.1
+18.	network 10.0.12.0/30 area 0
+19.	network 192.168.1.0/24 area 0
 
 
 **DNS:**
