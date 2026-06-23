@@ -1,14 +1,12 @@
 Not a discription.
-
-
-1.	passwd snow – поменять пароль
-2.	**iptables settings**
-3.	iptables -t nat -A POSTROUTING -o ens160 -j MASQUERADE / ACCEPT
-4.	iptables -A FORWARD -i ens192/160 -j ACCEPT
-5.	**SSH config** 
-6.	ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa_isp/br/hq
-7.	ssh-copy-id -i ~/.ssh/id_rsa_isp isp
-8.	vim ~/.ssh/config:
+    passwd snow – поменять пароль
+   **iptables settings**
+   iptables -t nat -A POSTROUTING -o ens160 -j MASQUERADE / ACCEPT
+   iptables -A FORWARD -i ens192/160 -j ACCEPT
+   **SSH config** 
+   ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa_isp/br/hq
+   ssh-copy-id -i ~/.ssh/id_rsa_isp isp
+   vim ~/.ssh/config:
 Host Zeus
     Hostname 192.168.3.2
     User capybara
